@@ -1,0 +1,14 @@
+﻿srping: 
+  profiles: 
+    active: 
+      - dev
+---
+spring:
+  profiles: dev
+  application:
+    name: microservicecloud-dept-dev
+---
+spring:
+  profiles: test
+  application:
+    name: microservicecloud-dept-test
